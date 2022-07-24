@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1em;
+    width: fit-content;
+    padding:1em 5em;
+    height: 90vh;
+    margin-top: 1em;
+    background-color: white;
+}
+p{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(66, 9, 9);
+}
+
+span{
+    font-size: large;
+    font-weight: 500;
+    width: 13em;
+    display: block;
+    text-align: left;
+}
+input, select{
+    width: 18em;
+    margin: .1em;
+}
+.back{
+    margin-left: 4em;
+    margin-top: 2em;
+    position: fixed;
+}
+#submit{
+    margin-top: .3em;
+    border-radius: 1em;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 60%;
+    padding:.2em 0em;
+
+}

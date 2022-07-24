@@ -1,0 +1,48 @@
+<div class="back">
+    <a routerLink="../"><img src="https://img.icons8.com/external-simple-solid-edt.graphics/50/000000/external-Back-arrows-simple-solid-edt.graphics-3.png"/></a>
+    </div>
+    <div class="container">
+        <div>
+       <p> Create New Id</p>
+    
+       <form [formGroup]="signUpPage" >
+        <div><span>Enter Your Name: </span>
+        <input class="form-control" type="text" placeholder="Name" name="name" formControlName="name">
+        </div>
+        <div>
+            <span>Enter your UserName: </span>
+            <input class="form-control" type="text" placeholder="Username" formControlName="username">
+    
+        </div>
+        <div>
+            <span>Enter Your Email: </span>
+            <input class="form-control" type="email" placeholder="Email" formControlName="email">
+        </div>
+        <div>
+            <span>Role</span>
+            <select name="Role" id="Role" formControlName="role">
+                <option value="1">Select</option>
+                <option value="admin">admin</option>
+                <option value="superuser">Super User</option>
+                <option value="user">User</option>
+            </select>
+        </div>
+        <div>
+            <span>Password: </span>
+            <input class="form-control" type="password" placeholder="Password" formControlName="password">
+        </div>
+        <div>
+            <span>Phone Number: </span>
+            <input class="form-control" type="text" placeholder="000000000" formControlName="phone">
+    
+        </div>
+        <div>
+            <span>company</span>
+            <input class="form-control" type="text" placeholder="description" formControlName="company">
+        </div>
+    
+        <input type="submit" value=" Submit" id="submit" (click)="submit()">
+       </form>
+    </div>
+    
+    </div>
